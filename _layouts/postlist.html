@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<!-- postlist start  -->
+<div class="postlist">
+  <ol>
+    {% for post in site.posts %}
+    <li><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a> <br><br> {{ post.content | strip_html | truncatewords:25 }} <p style='font-size:15pt;padding-left:0'><br>{{ post.date | date: '%d %b %Y' }} 　　　　　　　　　　　　　　　　　　　　　　　　　　categories:{{ post.categories }}</p></li>
+    {% endfor %}
+  </ol>
+
+</div>
+<!-- postlist end  -->

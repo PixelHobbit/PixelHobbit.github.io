@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="post">
+  <article>
+    <h2>{{ page.title }}</h2>
+    <br>
+    <time>{{ page.date | date: '%d %b %Y' }}</time>
+    {{ content }}
+    <br>
+    <a id='back' href="/postlist/">back→</a>
+  </article>
+</div>

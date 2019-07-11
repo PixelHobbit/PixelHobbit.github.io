@@ -1,0 +1,180 @@
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: #efefef;
+    margin: 0;
+}
+
+/* nav start */
+h3 a {
+  display: block;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+h3 {
+  float: left;
+  margin: 0;
+  padding: 15px;
+  margin-left: 50px;
+  margin-right: 10%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: white;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+/* nav end */
+
+/* notice start */
+.notice {
+  background-color: white;
+  min-height: 350px;
+  width: 950px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.notice:hover {
+  box-shadow: 10px 10px 5px #888888;
+}
+.notice p {
+  margin: 0;
+  text-align: center;
+}
+/* notice end */
+
+// contacts start
+.contacts img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.contacts a {
+	text-decoration: none;
+}
+.contacts {
+  width: 250px;
+  margin: 30px auto;
+}
+img:hover {
+    opacity: 0.8;
+}
+// contacts end
+
+// postlist start
+.postlist {
+  min-height: 300px;
+  width: 950px;
+  margin: 10px auto;
+}
+.postlist ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.postlist li {
+  margin-top: 10px;
+  padding: 30px;
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+}
+.postlist li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+.postlist h3 {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.postlist li p {
+  display: block;
+  margin: 0 0 20px 0;
+}
+.postlist li:hover {
+  box-shadow: 10px 10px 5px #888888;
+}
+// postlist end
+
+// post start
+.post {
+  min-height: 300px;
+  width: 950px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+.post article {
+  width: 850px;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+.post h2 {
+  margin: 0;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+.post time {
+  margin: 0;
+  padding: 0 0 0 680px;
+}
+.post p {
+  margin: 0;
+  padding: 30px 0;
+}
+.post:hover {
+  box-shadow: 10px 10px 5px #888888;
+}
+#back {
+  text-decoration: none;
+  color: gray;
+  padding-left: 750px;
+}
+#back:hover{
+   color: indigo;
+}
+// post end
+
+// about start
+.about {
+  min-height: 350px;
+  width: 950px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.about article {
+  padding: 30px;
+  width: 850px;
+  margin: 0 auto;
+}
+.about p {
+  margin: 0;
+}
+.about:hover {
+  box-shadow: 10px 10px 5px #888888;
+}
+// about end
