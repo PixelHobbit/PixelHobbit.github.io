@@ -178,3 +178,38 @@ img:hover {
   box-shadow: 10px 10px 5px #888888;
 }
 // about end
+
+// search start
+.search {
+  width: 950px;
+  margin: 10px auto;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.search ol {
+  padding: 0;
+  margin: 0;
+}
+#search-input {
+  display: inline-block;
+  padding: .5em;
+  width: 100%;
+  font-size: 0.8em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#results-container li {
+  list-style: none;
+  margin-top: 10px;
+  padding: 30px;
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+}
+#results-container li:hover {
+  box-shadow: 10px 10px 5px #888888;
+}
+// search end
