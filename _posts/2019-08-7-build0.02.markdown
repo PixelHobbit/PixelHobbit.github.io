@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Frist Post"
+title:  "Update for build 0.02"
 date:   2019-08-7
 categories: log
 ---
