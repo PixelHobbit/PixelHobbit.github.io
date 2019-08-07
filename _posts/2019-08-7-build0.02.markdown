@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Frist Post"
+date:   2019-08-7
+categories: log
+---
+Update 8.7
+build 0.02
+
+notice:
+  1.添加分页和归档
+  2.修改主页的链接
+  4.移除herobrine
+  3.添加更多的bug

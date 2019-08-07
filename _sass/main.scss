@@ -119,6 +119,54 @@ img:hover {
 }
 // postlist end
 
+// archive start
+.archive {
+  background-color: white;
+  border-radius: 10px;
+  min-height: 300px;
+  width: 950px;
+  margin: 10px auto;
+}
+.archive ol{
+    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 30px 20%;
+}
+.archive li a:hover{
+  color: gray;
+}
+// archive end
+
+// pagination start
+.pagination {
+  float: left;
+  margin: 30px 40%;
+
+}
+.pagination ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.pagination ol li{
+  margin: 0;
+  float: left;
+}
+.pagination ol li a{
+  color: gray;
+}
+.pagination ol li a:hover{
+  color: black;
+}
+.pagination ol li p{
+  margin: 0;
+}
+.page {
+  margin: 0 30px;
+}
+// paginattion end
+
 // post start
 .post {
   min-height: 300px;

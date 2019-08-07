@@ -16,25 +16,24 @@
 title: Pixel_Hobit's site
 admin: Pixel_Hobbit
 email: shaoyihuan2@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Pixel_Hobbit
-github_username:  PixelHobbit
+description: Pixel_Hobbit's site and welcome to city 17
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: Pixel_Hobbit
+github_username:  PixelHobbit#
 facebook_username: Pixel_Hobbit
 bilibili_username: Pixel_Hobbit
 steam_username: Pixel_Hobbit
 
 # Build settings
 markdown: kramdown
+
 # theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+  - jekyll-paginate
+paginate: 5 # pagination basted on number of posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
