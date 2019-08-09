@@ -3,5 +3,6 @@
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <script src="/simple-jekyll-search.min.js"></script>
   <title>{% if page.layout == 'home' %}{{ site.title }}{% else %}{{ site.title }} | {{ page.title }} {% endif %}</title>
+  {% if page.layout == 'home' %}<meta name="google-site-verification" content="9pZTBy0mGeS4ykCT-olPuB3F7HrEVsq3VaDKR_c66UI" />{% endif %}
   {% seo %}
 </head>
