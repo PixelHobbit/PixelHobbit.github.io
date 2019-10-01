@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+  <script src="/simple-jekyll-search.min.js"></script>
+  <title>Pixel_Hobbit's site | Search </title>
+  
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Search | Pixel_Hobbit’s site</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Search" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Pixel_Hobbit’s site and welcome to city 17" />
+<meta property="og:description" content="Pixel_Hobbit’s site and welcome to city 17" />
+<meta property="og:site_name" content="Pixel_Hobbit’s site" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"/search/","headline":"Search","description":"Pixel_Hobbit’s site and welcome to city 17","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+  <!-- nav start  -->
+<header>
+  <ul>
+    <h3><a href="/">Pixel_Hobbit</a></h3>
+    <li><a href="/" style=''>home</a></li>
+    <li><a href="/postlist/" style=''>blog</a></li>
+    <li><a href="/archive/" style=''>archive</a></li>
+    <li><a href="/category/" style=''>category</a></li>
+    <li><a href="/about/" style=''>about</a></li>
+    <li><a href="/search/" style='background-color: #ddd;'>search</a></li>
+  </ul>
+</header>
+<!-- nav end  -->
+
+    <div class="search">
+  <input type="text" id="search-input" placeholder="Search blog posts..">
+  <ol id="results-container"></ol>
+  <script type="text/javascript">
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+      noResultsText: 'No results found',
+      limit: 10,
+      fuzzy: false,
+      exclude: ['Welcome']
+    })
+    </script>
+</div>
+
+    </script>
+  </body>
+</html>

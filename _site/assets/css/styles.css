@@ -1,0 +1,265 @@
+body {
+  font-family: 'Handlee', cursive;
+  font-size: 20pt;
+  font-weight: bold;
+  background-color: #efefef;
+  margin: 0; }
+
+/* nav start */
+header h3 a {
+  display: block;
+  color: #000;
+  text-align: center;
+  text-decoration: none; }
+
+header h3 {
+  float: left;
+  margin: 0;
+  padding: 15px;
+  margin-left: 50px;
+  margin-right: 10%; }
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: white; }
+
+header ul li {
+  float: left; }
+
+header ul li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none; }
+
+header ul li a:hover:not(.active) {
+  background-color: #ddd; }
+
+/* nav end */
+/* notice start */
+.notice {
+  background-color: white;
+  min-height: 350px;
+  width: 950px;
+  margin: 10px auto;
+  border-radius: 10px; }
+
+.notice:hover {
+  box-shadow: 10px 10px 5px #888888; }
+
+.notice p {
+  margin: 0;
+  text-align: center; }
+
+/* notice end */
+.contacts img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%; }
+
+.contacts a {
+  text-decoration: none; }
+
+.contacts {
+  width: 250px;
+  margin: 30px auto; }
+
+img:hover {
+  opacity: 0.8; }
+
+.postlist {
+  min-height: 300px;
+  width: 950px;
+  margin: 10px auto; }
+
+.postlist ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.postlist li {
+  margin-top: 10px;
+  padding: 30px;
+  background-color: white;
+  height: auto;
+  border-radius: 10px; }
+
+.postlist li a {
+  display: block;
+  color: #000;
+  text-decoration: none; }
+
+.postlist ol li h3 {
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+.postlist ol li h3:hover {
+  color: gray; }
+
+.postlist li p {
+  display: block;
+  margin: 0 0 20px 0; }
+
+.postlist li:hover {
+  box-shadow: 10px 10px 5px #888888; }
+
+.pagination {
+  float: left;
+  margin: 30px 40%; }
+
+.pagination ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.pagination ol li {
+  margin: 0;
+  float: left; }
+
+.pagination ol li a {
+  color: gray; }
+
+.pagination ol li a:hover {
+  color: black; }
+
+.pagination ol li p {
+  margin: 0; }
+
+.page {
+  margin: 0 30px; }
+
+.post {
+  min-height: 300px;
+  width: 950px;
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 10px; }
+
+.post article {
+  width: 850px;
+  margin: 0 auto;
+  padding: 0 0 50px 0; }
+
+.post h2 {
+  margin: 0;
+  padding: 50px 0 0 0;
+  text-align: center; }
+
+.post time {
+  margin: 0;
+  padding: 0 0 0 680px; }
+
+.post p {
+  margin: 0;
+  padding: 30px 0; }
+
+.post:hover {
+  box-shadow: 10px 10px 5px #888888; }
+
+#back {
+  text-decoration: none;
+  color: gray;
+  padding-left: 750px; }
+
+#back:hover {
+  color: indigo; }
+
+.archive {
+  width: 950px;
+  margin: 10px auto; }
+
+.archive ol {
+  list-style-type: circle;
+  padding: 0 10% 30px;
+  margin: 0;
+  background-color: white;
+  border-radius: 10px; }
+
+.archive ol:hover {
+  box-shadow: 10px 10px 5px #888888; }
+
+.archive ol h3 {
+  margin: 0;
+  padding: 30px 0 0 0;
+  display: block; }
+
+.archive li a:hover {
+  color: gray; }
+
+.category {
+  width: 950px;
+  margin: auto; }
+
+.category ol {
+  list-style-type: circle;
+  padding: 0 10% 30px;
+  margin: 10px 0 0 0;
+  background-color: white;
+  border-radius: 10px; }
+
+.category ol:hover {
+  box-shadow: 10px 10px 5px #888888; }
+
+.category ol h3 {
+  margin: 0;
+  padding: 30px 0 0 0;
+  display: block; }
+
+.category li a:hover {
+  color: gray; }
+
+.about {
+  min-height: 350px;
+  width: 950px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px auto; }
+
+.about article {
+  padding: 30px;
+  width: 850px;
+  margin: 0 auto; }
+
+.about p {
+  margin: 0; }
+
+.about:hover {
+  box-shadow: 10px 10px 5px #888888; }
+
+.search {
+  width: 950px;
+  margin: 10px auto; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.search ol {
+  padding: 0;
+  margin: 0; }
+
+#search-input {
+  display: inline-block;
+  padding: .5em;
+  width: 100%;
+  font-size: 0.8em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#results-container li {
+  list-style: none;
+  margin-top: 10px;
+  padding: 30px;
+  background-color: white;
+  height: auto;
+  border-radius: 10px; }
+
+#results-container li:hover {
+  box-shadow: 10px 10px 5px #888888; }
