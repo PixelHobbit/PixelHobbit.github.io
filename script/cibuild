@@ -1,6 +1,4 @@
 #!/bin/bash
-bundle lock --add-platform ruby
-bundle lock --add-platform x86_64-linux
 bundle install --jobs=3 --retry=3
 # skip if build is triggered by pull request
 if [ $TRAVIS_PULL_REQUEST == "true" ]; then
