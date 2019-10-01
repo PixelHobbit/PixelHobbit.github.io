@@ -93,6 +93,7 @@ GEM
     tzinfo-data (1.2019.3)
       tzinfo (>= 1.0.0)
     wdm (0.1.1)
+    bundler 2.0.2
 
 PLATFORMS
   x64-mingw32
