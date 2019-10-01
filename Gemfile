@@ -34,8 +34,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
-
-platform :mswin, :mingw, :x64_mingw do
-  gem "tzinfo-data"
-  gem "win32_api"
-end
