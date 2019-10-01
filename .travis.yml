@@ -18,6 +18,5 @@ before_script:
 # path to our build script.
 # Travis will run `bundle install` by default before running our script
 script: ./script/cibuild
-        bundle exec rake spec
 exclude: [vendor]
 sudo: false
