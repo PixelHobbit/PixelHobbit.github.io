@@ -1,0 +1,72 @@
+---
+layout: default
+title: Postlist
+permalink: /postlist/
+pagination:
+  enabled: true
+---
+<!-- postlist start  -->
+<div class="postlist">
+	<ol>
+			{% for post in paginator.posts %}
+			<li><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a> <br><br> {{ post.content | strip_html | truncatewords:25 }} <p style='font-size:15pt;padding-left:0'><br>{{ post.date | date: '%d %b %Y' }} 　　　　　　　　　　　　　　　　　　　　　　　　　　categories:{{ post.categories }}</p></li>
+			{% endfor %}
+	</ol>
+</div>
+<!-- postlist end  -->
+
+<!-- pagination start  -->
+<div class="pagination">
+	<ol>
+		<li>
+			{% if paginator.previous_page %}
+		  <p class="previous">
+		    {% if paginator.previous_page == 1 %}
+		    <a href="/postlist">←　</a>
+		    {% else %}
+		    <a href="/postlist/page/{{paginator.previous_page}}">←　</a>
+		    {% endif %}
+		  </p>
+		  {% else %}
+		  <p class="previous disabled">
+		    <span>←　</span>
+		  </p>
+		  {% endif %}
+		</li>
+
+
+		<li>
+			<ol class="pages">
+		    <li class="page">
+		      {% if paginator.page == 1 %}
+		      <span class="current-page">1</span>
+		      {% else %}
+		      <a href="/postlist">1</a>
+		      {% endif %}
+		    </li>
+
+		    {% for count in (2..paginator.total_pages) %}
+		    <li class="page">
+		      {% if count == paginator.page %}
+		      <span class="current-page">{{count}}</span>
+		      {% else %}
+		      <a href="/postlist/page/{{count}}">{{count}}</a>
+		      {% endif %}
+		    </li>
+		    {% endfor %}
+		  </ol>
+		</li>
+		<li>
+			{% if paginator.next_page %}
+			<p class="next">
+				<a href="/postlist/page/{{paginator.next_page}}">　→</a>
+			</p>
+			{% else %}
+			<p class="next disabled">
+				<span>　→</span>
+			</p>
+			{% endif %}
+		</li>
+	</ol>
+</div>
+<!-- pagination end  -->
