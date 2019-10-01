@@ -7,20 +7,20 @@ body {
 }
 
 /* nav start */
-h3 a {
+header h3 a {
   display: block;
   color: #000;
   text-align: center;
   text-decoration: none;
 }
-h3 {
+header h3 {
   float: left;
   margin: 0;
   padding: 15px;
   margin-left: 50px;
   margin-right: 10%;
 }
-ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,11 +29,10 @@ ul {
     background-color: white;
 }
 
-ul li {
+header ul li {
     float: left;
 }
-
-ul li a {
+header ul li a {
     display: block;
     color: #666;
     text-align: center;
@@ -41,7 +40,7 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover:not(.active) {
+header ul li a:hover:not(.active) {
     background-color: #ddd;
 }
 
@@ -105,10 +104,13 @@ img:hover {
   color: #000;
   text-decoration: none;
 }
-.postlist h3 {
+.postlist ol li h3 {
   margin: 0;
   padding: 0;
   display: block;
+}
+.postlist ol li h3:hover{
+  color: gray;
 }
 .postlist li p {
   display: block;
@@ -118,25 +120,6 @@ img:hover {
   box-shadow: 10px 10px 5px #888888;
 }
 // postlist end
-
-// archive start
-.archive {
-  background-color: white;
-  border-radius: 10px;
-  min-height: 300px;
-  width: 950px;
-  margin: 10px auto;
-}
-.archive ol{
-    text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 30px 20%;
-}
-.archive li a:hover{
-  color: gray;
-}
-// archive end
 
 // pagination start
 .pagination {
@@ -205,6 +188,56 @@ img:hover {
    color: indigo;
 }
 // post end
+
+// archive start
+.archive {
+  width: 950px;
+  margin: 10px auto;
+}
+.archive ol{
+  list-style-type: circle;
+  padding:0 10% 30px;
+  margin: 0;
+  background-color: white;
+  border-radius: 10px;
+}
+.archive ol:hover {
+  box-shadow: 10px 10px 5px #888888;
+}
+.archive ol h3 {
+  margin: 0;
+  padding: 30px 0 0 0;
+  display: block;
+}
+.archive li a:hover{
+  color: gray;
+}
+// archive end
+
+// category start
+.category {
+  width: 950px;
+  margin: auto;
+}
+.category ol{
+  list-style-type: circle;
+  padding:0 10% 30px;
+  margin: 10px 0 0 0;
+  background-color: white;
+  border-radius: 10px;
+}
+.category ol:hover {
+  box-shadow: 10px 10px 5px #888888;
+}
+.category ol h3 {
+  margin: 0;
+  padding: 30px 0 0 0;
+  display: block;
+}
+.category li a:hover{
+  color: gray;
+}
+// category end
 
 // about start
 .about {

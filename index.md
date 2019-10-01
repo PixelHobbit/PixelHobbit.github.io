@@ -10,4 +10,4 @@ layout: home
 Pixel_Hobbit's Site
 <br>
 <br>
-Welcome
+不管什么时候别忘了挺直腰杆哟~
