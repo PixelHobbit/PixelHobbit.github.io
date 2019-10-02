@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.8.6"
-gem "html-proofer"
+
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
@@ -22,7 +22,6 @@ gem "html-proofer"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-admin', group: :jekyll_plugins
-#  gem 'jekyll-paginate-v2', '~> 2.0'
   gem "jekyll-sitemap"
 end
 
