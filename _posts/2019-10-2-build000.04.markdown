@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Update for build 0.04"
+date:   2019-10-2
+categories: log
+---
+Update 10.1<br>
+build 0.03<br>
+
+notice:<br>
+  1.Github page不支持jekyll-paginate-v2<br>
+    改用jekyll-paginate并修复未发现的bug<br>
+  2.移除herobrine<br>
+  3.添加更多的bug<br>
